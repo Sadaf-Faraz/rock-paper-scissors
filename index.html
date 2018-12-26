@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <meta chartset="utf-8">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <title> Rock Paper Scissors Game</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Rock - Paper - Scissors</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">user score</div>
+        <div id="computer-label" class="badge">computer score</div>
+
+        <span id="user-score">0</span> :
+        <span id="computer-score">0</span>
+
+    </div>
+
+
+
+
+    <div class="choices">
+
+        <div class="option" id="r">
+            <i class="fas fa-hand-rock fa-7x"></i>
+        </div>
+
+        <div class="option" id="p">
+            <i class="fas fa-hand-paper fa-7x"></i>
+        </div>
+        <div class="option" id="s">
+            <i class="fas fa-hand-scissors fa-7x"></i>
+        </div>
+
+    </div>
+
+    <div class="player-choice">
+        <p> </p>
+    </div>
+
+
+    <div class="comp-choice">
+        <p> </p>
+    </div>
+
+    <div class="results">
+        <p>Paper covers rock! You win!</p>
+    </div>
+
+
+    <div class="btn">
+        <button type="submit" id="resetbtn">Start Over</button>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
